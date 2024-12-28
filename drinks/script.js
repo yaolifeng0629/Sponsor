@@ -11,13 +11,13 @@ jQuery(document).ready(function () {
     var isMobile = /Android|webOS|iPhone|iPad|BlackBerry/i.test(navigator.userAgent);
 
     var GithubLink = 'https://github.com/yaolifeng0629/Awesome-independent-tools';
-    // var PayPalLink  =   "https://www.paypal.me/KaiyuanXie";
+    var PayPalLink  =   "https://www.paypal.me/Immerse0629";
     // $('#paypal-donate>a').href = PayPalLink;
     $('#github-box>a').href = GithubLink;
     var qrcodes = {
         // 'btc_donate'	:	'../simple/images/BTCQR.png',	// 二维码路径
         alipay_donate: 'https://ims-oss.us.kg/pay/ali.png', // 支付宝二维码
-        alipay_donate_link: 'https://qr.alipay.com/3272611934645308', // 支付宝二维码上的链接，必须换成自己的连接！！！手机点击会自动跳转到支付宝。
+        // alipay_donate_link: 'https://qr.alipay.com/3272611934645308', // 支付宝二维码上的链接，必须换成自己的连接！！！手机点击会自动跳转到支付宝。
         wechat_donate: 'https://ims-oss.us.kg/pay/weixin.png',
     };
 
