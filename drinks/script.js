@@ -10,7 +10,7 @@ jQuery(document).ready(function () {
     var drinks_qrcode = $('#drinks-qrcode');
     var isMobile = /Android|webOS|iPhone|iPad|BlackBerry/i.test(navigator.userAgent);
 
-    var GithubLink = 'https://github.com/yaolifeng0629/Awesome-independent-tools';
+    var GithubLink = 'https://github.com/yaolifeng0629';
     // var PayPalLink  =   "https://www.paypal.me/Immerse0629";
     // $('#paypal-donate>a').href = PayPalLink;
     $('#github-box>a').href = GithubLink;
